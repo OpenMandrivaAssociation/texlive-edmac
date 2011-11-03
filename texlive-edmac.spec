@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/plain/contrib/edmac
+# catalog-date 2007-01-02 10:01:06 +0100
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-edmac
 Version:	20070102
 Release:	1
@@ -50,6 +56,7 @@ A macro package for typesetting scholarly critical editions.
 %doc %{_texmfdistdir}/doc/latex/edmac/readme
 #- source
 %doc %{_texmfdistdir}/source/latex/edmac/edmac.drv
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -60,3 +67,5 @@ A macro package for typesetting scholarly critical editions.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
