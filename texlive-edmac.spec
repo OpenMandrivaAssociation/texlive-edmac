@@ -57,3 +57,17 @@ A macro package for typesetting scholarly critical editions.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20070102-2
++ Revision: 751325
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20070102-1
++ Revision: 718307
+- texlive-edmac
+- texlive-edmac
+- texlive-edmac
+- texlive-edmac
+
