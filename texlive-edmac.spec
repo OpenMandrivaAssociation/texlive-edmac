@@ -5,7 +5,7 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-edmac
-Version:	20170414
+Version:	3.17
 Release:	1
 Summary:	Typeset scholarly edition
 Group:		Publishing
