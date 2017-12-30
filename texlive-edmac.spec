@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-edmac
-Version:	20070102
-Release:	10
+Version:	3.17
+Release:	1
 Summary:	Typeset scholarly edition
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/edmac
