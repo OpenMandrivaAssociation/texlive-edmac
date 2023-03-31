@@ -1,6 +1,6 @@
 Name:		texlive-edmac
 Version:	61719
-Release:	1
+Release:	2
 Summary:	Typeset scholarly edition
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/edmac
