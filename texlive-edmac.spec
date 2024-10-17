@@ -3,7 +3,7 @@ Version:	61719
 Release:	2
 Summary:	Typeset scholarly edition
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/edmac
+URL:		https://www.ctan.org/tex-archive/macros/plain/contrib/edmac
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/edmac.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/edmac.doc.r%{version}.tar.xz
